@@ -39,7 +39,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
+        <Navbar.Brand href="https://www.linkedin.com/in/uday-solanki-a62967277/" className="d-flex" target="_blank">
            <p style={{
              fontFamily:'Sacramento , cursive',
             fontSize:40,
