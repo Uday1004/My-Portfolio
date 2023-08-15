@@ -77,7 +77,7 @@ Start the server
 
 Feel free to explore My portfolio for better experience and design ideas | If you have any feedback or suggestions, please let us know. Enjoy! 😊
 
-[Email - ](mailto:udaysolanki530@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)
+<a href="mailto:udaysolanki530@gmail.com?">Email-</a>
 
 ## Developer
 - [Uday solanki](https://www.github.com/Uday1004)
