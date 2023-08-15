@@ -9,9 +9,9 @@
 <br/>
 
 ## Demo Images - 
-![image](Images/Demo1.png)
-![image](Images/Demo2.png)
 
+![Demo1](Images/Demo1.png)
+ 
  
 
 <h3 align="center">
