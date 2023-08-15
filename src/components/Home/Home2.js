@@ -1,12 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import mypic2 from "./mypic2.svg";
- 
+
 import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
-  AiOutlineMail
+  AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -17,12 +16,15 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.4em" }}>
-            I'd Like To Share a Bit About <span className="purple"> "MYSELF"</span>
+              I'd Like To Share a Bit About{" "}
+              <span className="purple"> "MYSELF"</span>
             </h1>
             <p className="home-about-body">
-            The world of programming captured my heart, and I believe I've managed to grasp a thing or two... or so I hope! 🤷‍♂️
+              The world of programming captured my heart, and I believe I've
+              managed to grasp a thing or two... or so I hope! 🤷‍♂️
               <br />
-              <br />I'm well-versed in the timeless languages of
+              <br />
+              I'm well-versed in the timeless languages of
               <i>
                 <b className="purple"> Python, Javascript and Go. </b>
               </i>
@@ -30,9 +32,10 @@ function Home2() {
               <br />
               My passion lies in crafting innovative &nbsp;
               <i>
-                <b className="purple">Web-App's Development </b> and
-                as well as delving into the fascinating realm of <b className="purple">Real-time Projects</b> and its related domains.{" "}
-                 <b className="purple">Ecommerce.</b>
+                <b className="purple">Web-App's Development </b> and as well as
+                delving into the fascinating realm of{" "}
+                <b className="purple">Real-time Projects</b> and its related
+                domains. <b className="purple">Ecommerce.</b>
               </i>
               <br />
               <br />
@@ -50,11 +53,6 @@ function Home2() {
               </i>
             </p>
           </Col>
-          {/* <Col md={4} className="myAvtar" style={{background:'transparent'}}>
-            
-              <img src={mypic2} className="img-fluid" alt="avatar" style={{background:'transparent'}} />
-            
-          </Col> */}
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
@@ -110,11 +108,10 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiOutlineMail/>
+                  <AiOutlineMail />
                 </a>
-                {/* <p>Mail</p> */}
               </li>
-            </ul> 
+            </ul>
           </Col>
         </Row>
       </Container>
