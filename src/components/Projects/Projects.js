@@ -72,7 +72,7 @@ function Projects() {
               title="Portfolio"
               description="This project has been meticulously developed to provide a comprehensive insight into my portfolio, showcasing my professional journey, educational background, and other relevant accomplishments. It serves as a dedicated platform for you to gain an in-depth understanding of both my work and personal profile."
               ghLink=""
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              demoLink="https://udaysolanki.netlify.app/" /* <--------Please include a demo link here*/
             />
           </Col>
         </Row>
