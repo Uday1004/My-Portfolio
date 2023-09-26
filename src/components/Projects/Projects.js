@@ -2,8 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import vchat from "../../Assets/Projects/vchat.png";
-
+ 
 import hh from "../../Assets/Projects/hh.png";
 import tutils from "../../Assets/Projects/tutils.png";
 import mausamui from "../../Assets/Projects/mausamui.png";
