@@ -25,6 +25,12 @@ function Home() {
                 <strong className="main-name"> Uday Solanki</strong>
               </h1>
 
+              <p className="home-desc">
+                Break stuff to make it better. Code, design, deploy — repeat. If
+                it’s not sleek, <br /> fast, and slightly over-engineered,
+                <span className="purple"> UDAY — building, breaking, becoming 🪶</span>
+              </p>
+
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
