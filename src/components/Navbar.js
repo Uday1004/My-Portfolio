@@ -10,6 +10,7 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiFillLinkedin,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -37,11 +38,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand
-          href="https://www.linkedin.com/in/uday-solanki-a62967277/"
-          className="d-flex"
-          target="_blank"
-        >
+        <Navbar.Brand as={Link} to="/" className="d-flex">
           <p
             style={{
               fontFamily: "Sacramento , cursive",
@@ -57,16 +54,18 @@ function NavBar() {
           onClick={() => {
             updateExpanded(expand ? false : "expanded");
           }}
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </Navbar.Toggle>
+        ></Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto" defaultActiveKey="#home">
+          <Nav className="ms-auto">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+              <Nav.Link
+                href="https://www.linkedin.com/in/udaysolankii"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiFillLinkedin style={{ marginBottom: "2px", fontSize: 25 }} />{" "}
+                Linkedin
               </Nav.Link>
             </Nav.Item>
 
@@ -76,7 +75,8 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <AiOutlineUser style={{ marginBottom: "2px", fontSize: 25 }} />{" "}
+                About
               </Nav.Link>
             </Nav.Item>
 
@@ -87,7 +87,7 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
+                  style={{ marginBottom: "2px", fontSize: 25 }}
                 />{" "}
                 Projects
               </Nav.Link>
@@ -99,7 +99,8 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <CgFileDocument style={{ marginBottom: "2px", fontSize: 25 }} />{" "}
+                Resume
               </Nav.Link>
             </Nav.Item>
 

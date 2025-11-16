@@ -26,9 +26,7 @@ function Home() {
               </h1>
 
               <p className="home-desc">
-                Break stuff to make it better. Code, design, deploy — repeat. If
-                it’s not sleek, <br /> fast, and slightly over-engineered,
-                <span className="purple"> UDAY — building, breaking, becoming 🪶</span>
+              Great products need <b className="purple">great execution</b> , and I’m ready to bring that to the table. <b className="purple">I’m Uday</b> — someone who supports the company from every angle, finds opportunities that drive growth, and steps in wherever the team needs impact.
               </p>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -37,7 +35,7 @@ function Home() {
             </Col>
 
             <Col className="col-pic" md={5} style={{ paddingBottom: 20 }}>
-              <img
+              <img 
                 className="mypic img-fluid"
                 src={mypic}
                 style={{ maxHeight: "333px" }}

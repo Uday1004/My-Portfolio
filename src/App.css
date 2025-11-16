@@ -6,14 +6,7 @@
   height: 40vmin;
   pointer-events: none;
 }
-.mypic{
-  position: absolute;
-  border: 2px solid white;
-  border-radius: 166px;
-  width: 21%;
-  z-index: 1;
-   
-}
+
 @media only screen and (max-width: 420px){
   .mypic{
      /* display: none; */

@@ -32,7 +32,7 @@ function Home2() {
               <br />
               I'm well-versed in the timeless languages of
               <i>
-                <b className="purple"> Javascript, Python and Java. </b>
+                <b className="purple"> Javascript and Python </b>
               </i>
               <br />
               <br />
@@ -52,7 +52,7 @@ function Home2() {
                   <li className="about-activity" style={{}}>
                     <FiArrowUpRight />{" "}
                     <span className="purple">Backend : </span>{" "}
-                    <span>Node.js, Python (Flask), Java (Spring Boot)</span>
+                    <span>Node.js, Python (Flask,FastAPI,Django)</span>
                   </li>
                   <li className="about-activity" style={{}}>
                     <FiArrowUpRight />{" "}
@@ -85,52 +85,62 @@ function Home2() {
                     <span>React-based Micro Frontend Architecture</span>
                   </li>
                   <li className="about-activity" style={{}}>
-                    <FiArrowUpRight />{" "}
-                    <span className="purple">Backend : </span>{" "}
-                    <span>Node.js, Python (Flask), Java (Spring Boot)</span>
+                    <FaAngleDoubleRight />{" "}
+                    <span>
+                      Global Components Development with Nodejs NPM env
+                    </span>
                   </li>
                   <li className="about-activity" style={{}}>
-                    <FiArrowUpRight />{" "}
-                    <span className="purple">Databases : </span>{" "}
-                    <span>MongoDB, MySQL Workbench</span>
+                    <FaAngleDoubleRight />{" "}
+                    <span>Product Platfrom UI desing and deployment</span>
                   </li>
                   <li className="about-activity" style={{}}>
-                    <FiArrowUpRight />{" "}
-                    <span className="purple">Cloud & DevOps : </span>{" "}
-                    <span>AWS (Tier-2), Linux (Tier-2)</span>
+                    <FaAngleDoubleRight />{" "}
+                    <span>Product Platfrom Prototypes </span>
                   </li>
                   <li className="about-activity" style={{}}>
-                    <FiArrowUpRight />{" "}
-                    <span className="purple">CMS & SEO : </span>{" "}
-                    <span>WordPress, CMS Toolkits, Technical/On-page SEO</span>
+                    <FaAngleDoubleRight />{" "}
+                    <span>UI + Frontend Development</span>
                   </li>
                   <li className="about-activity" style={{}}>
-                    <FiArrowUpRight /> <span className="purple">Tools : </span>{" "}
-                    <span>GitHub, Postman, Flutterflow, Canva</span>
+                    <FaAngleDoubleRight /> <span>Android App Development</span>
                   </li>
                 </ul>
               </div>
-              My passion lies in crafting innovative &nbsp;
-              <i>
-                <b className="purple">Web-App's Development </b> and as well as
-                delving into the fascinating realm of{" "}
-                <b className="purple">Real-time Projects</b> and its related
-                domains. <b className="purple">Ecommerce.</b>
-              </i>
+              <div>
+                <h3 className="purple">
+                  Highlights <MdOutlineArrowForwardIos size={23} />{" "}
+                </h3>
+                <ul className="item-list">
+                  <li className="about-activity" style={{}}>
+                    <FaAngleDoubleRight />{" "}
+                    <span>
+                      5+ frontend & full-stack projects delivered using React.js
+                    </span>
+                  </li>
+                  <li className="about-activity" style={{}}>
+                    <FaAngleDoubleRight />{" "}
+                    <span>
+                      Built multiple project prototypes using React.js and
+                      FlutterFlow design tool
+                    </span>
+                  </li>
+                  <li className="about-activity" style={{}}>
+                    <FaAngleDoubleRight />{" "}
+                    <span>
+                      1.5+ years of industry experience as a Technical Analyst &
+                      Developer
+                    </span>
+                  </li>
+                </ul>
+              </div>
               <br />
+              <br />I aim to turn ideas into simple, functional, and
+              well-crafted <b className="purple">digital experiences</b>. Every
+              project is an <b className="purple">opportunity</b> to refine my
+              skills and{" "}
+              <b className="purple">deliver work that truly adds value.</b>
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and MUI for design</b>
-              </i>
             </p>
           </Col>
         </Row>
