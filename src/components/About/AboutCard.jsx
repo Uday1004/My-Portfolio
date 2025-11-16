@@ -1,7 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { FaAngleDoubleRight } from "react-icons/fa";
-import { ImPointRight } from "react-icons/im";
 import { MdOutlineArrowForwardIos } from "react-icons/md";
 
 function AboutCard() {
