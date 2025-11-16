@@ -34,14 +34,14 @@ function Home() {
               </div>
             </Col>
 
-            <Col className="col-pic" md={5} style={{ paddingBottom: 20 }}>
+            {/* <Col className="col-pic" md={5} style={{ paddingBottom: 20 }}>
               <img 
                 className="mypic img-fluid"
                 src={mypic}
                 style={{ maxHeight: "333px" }}
                 alt=""
               />
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </Container>
