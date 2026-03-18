@@ -15,14 +15,14 @@ function AboutCard() {
               Work & Experience <MdOutlineArrowForwardIos size={23} />{" "}
             </h3>
             From December 2023, I worked as a{" "}
-            <b className="purple">Technical Analyst - Intern</b> , and in
+            <b className="purple">Technical Analyst - Trainee</b> , and in
             September 2025, I moved into a full-time role as a{" "}
             <b className="purple">Technology Analyst</b> At{" "}
             <a href="https://www.cloudstrytech.com/" className="purple">
               CloudStry Technologies
             </a>{" "}
             . My responsibilities include building project prototypes,
-            developing React micro-frontends, and creating WordPress websites.
+            developing React Micro-Frontends and creating WordPress websites.
           </p>
         </blockquote>
         <blockquote className="blockquote mb-0">
